@@ -1,0 +1,16 @@
+.bar-chart-container {
+    margin-top: 20px;
+    padding: 5px;
+    background-color: transparent;
+    border: 1px solid darkgray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    direction: ltr;
+}
+
+.bar-chart {
+    margin: 0 auto;
+}

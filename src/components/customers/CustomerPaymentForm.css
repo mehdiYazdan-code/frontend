@@ -1,0 +1,56 @@
+.customer_payment_form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.customer_payment_form input[type="text"],
+.customer_payment_form input[type="number"],
+.customer_payment_form input[type="date"] {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.customer_payment_form button[type="submit"],
+.customer_payment_form button[type="button"] {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.customer_payment_form table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.customer_payment_form th,
+.customer_payment_form td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.customer_payment_form th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.customer_payment_form td:last-child {
+    text-align: center;
+}
+
+.customer_payment_form .edit_button {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.customer_payment_form .delete_button {
+    background-color: #dc3545;
+    color: #fff;
+}

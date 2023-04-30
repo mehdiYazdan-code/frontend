@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "IRANSans";
+  src: local("IRANSans");
+  src: url("/src/components/assets/fonts/IRANSansWeb(FaNum)_Light.woff2");
+}
+@font-face {
+  font-family: "IRANSansBold";
+  src: local("IRANSans");
+  src: url("/src/components/assets/fonts/IRANSansMonoSpacedNum_Bold.ttf");
+}
+@font-face {
+  font-family: "IRANSansMedium";
+  src: local("IRANSans");
+  src: url("/src/components/assets/fonts/IRANSansMonoSpacedNum_Medium.ttf");
+}
+body html * {
+  margin: 0;
+  font-family: IRANSans,-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: IRANSans,source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

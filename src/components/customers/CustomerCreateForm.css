@@ -1,0 +1,105 @@
+.customer-form .form-section {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-family: "IRANSans", sans-serif;
+}
+.customer-form .input-field {
+    margin: 0 5px;
+    width: 100%;
+}
+.customer-form .table {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+}
+.customer-form .table-header-row {
+    font-weight: bold;
+}
+.customer-form .table-body-row {
+    border-top: 1px solid lightgray;
+}
+.customer-form .table-footer-row {
+    font-weight: bold;
+}
+.customer-form .btn {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.customer-form table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.customer-form table td,
+.customer-form table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: right;
+}
+
+.customer-form table input[type="text"],
+.customer-form table input[type="tel"] {
+    border: none;
+    background-color: transparent;
+    text-align: right;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.customer-form table input[type="text"]:focus,
+.customer-form table input[type="tel"]:focus {
+    outline: none;
+}
+
+.customer-form table tfoot tr td:last-child,
+.customer-form table tbody tr td:last-child {
+    text-align: center;
+}
+
+.customer-form table tfoot tr td:first-child,
+.customer-form table tbody tr td:first-child {
+    text-align: right;
+}
+
+.customer-form table tfoot tr td:nth-child(3),
+.customer-form table tbody tr td:nth-child(3) {
+    text-align: left;
+}
+.customer-form .form-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.customer-form .input-field {
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+    font-size: 16px;
+    font-family: "IRANSansMedium", sans-serif;
+}
+
+.customer-form .input-field:focus {
+    outline: none;
+    border: 1px solid #40a9ff;
+    box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+}
+
+
+
+
+

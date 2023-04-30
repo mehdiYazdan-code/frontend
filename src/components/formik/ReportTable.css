@@ -1,0 +1,202 @@
+.report-table table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.report-table table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+
+}
+
+.report-table table th {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #f5f5f5;
+}
+
+.pagination-controls button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+.search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-form label {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.search-form input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    width: 200px;
+    transition: border-color 0.2s ease-in-out;
+}
+
+.search-form input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.search-form select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    width: 200px;
+    transition: border-color 0.2s ease-in-out;
+}
+
+.search-form select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.search-form button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 10px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.search-form button:hover {
+    background-color: #0069d9;
+}
+
+.report-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.report-controls select {
+    margin: 0 0.5rem;
+    padding: 0.25rem 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    font-family: IRANSans, serif;
+}
+
+.report-controls span {
+    margin: 0 0.25rem;
+    font-family: IRANSans, serif;
+}
+
+.pagination-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination-controls button {
+    margin: 0 0.25rem;
+    padding: 0.25rem 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    font-family: IRANSans, sans-serif;
+}
+
+.pagination-controls button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+.report-controls td button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+.custom-datepicker-input {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 6px 10px;
+    font-size: 14px;
+    line-height: 1.5;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.custom-datepicker-calendar {
+    width: 280px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.custom-datepicker-calendar table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.custom-datepicker-calendar th {
+    font-weight: bold;
+    padding: 6px 10px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.custom-datepicker-calendar td {
+    padding: 6px 10px;
+    text-align: center;
+}
+
+.custom-datepicker-calendar td.is-today {
+    background-color: #e6f7ff;
+}
+
+.custom-datepicker-calendar td.is-selected {
+    background-color: #1890ff;
+    color: #fff;
+}
+
+.custom-datepicker-calendar td.is-disabled {
+    color: #ccc;
+}
+
+
+
+
